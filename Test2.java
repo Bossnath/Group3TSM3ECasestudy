@@ -19,6 +19,18 @@ double getRateOfInterest(){return 2.6;}
 class LANDBANK extends Bank{  
 double getRateOfInterest(){return 0.75;}  
 }
+//Method 5: Laxamana, Karl Friedrich
+class CHINABANK extends Bank
+{  
+double getRateOfInterest()
+{return 0.25;}  
+} 
+//Method 6: Laxamana, Karl Friedrich
+class UNIONBANK extends Bank
+{  
+double getRateOfInterest()
+{return 0.10;}  
+}
 }
 class Test2
 {  
