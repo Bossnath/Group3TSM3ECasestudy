@@ -39,6 +39,14 @@ double getRateOfInterest(){return 2.50;}
 class BDO extends Bank{  
 double getRateOfInterest(){return 0.75;}  
 }
+//Method9: Balance, Andrea
+class BPI extends Bank{  
+double getRateOfInterest(){return 0.50;}  
+}    
+//Method10: Balance, Andrea
+class RCBC extends Bank{  
+double getRateOfInterest(){return 0.56;}  
+}  
 }
 class Test2
 {  
