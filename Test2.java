@@ -31,6 +31,14 @@ class UNIONBANK extends Bank
 double getRateOfInterest()
 {return 0.10;}  
 }
+//Method 7: Abiasan, Rowena
+class ING extends Bank{  
+double getRateOfInterest(){return 2.50;}  
+}  
+//Method 8: Abiasan, Rowena
+class BDO extends Bank{  
+double getRateOfInterest(){return 0.75;}  
+}
 }
 class Test2
 {  
