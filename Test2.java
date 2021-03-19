@@ -46,7 +46,14 @@ double getRateOfInterest(){return 0.50;}
 //Method10: Balance, Andrea
 class RCBC extends Bank{  
 double getRateOfInterest(){return 0.56;}  
-}  
+}
+//Method11: Jose, Kevin
+class CITIBANK extends Bank{  
+double getRateOfInterest(){return 0.75;}  
+} 
+//Method12: Jose, Kevin   
+class CIMB extends Bank{  
+double getRateOfInterest(){return 2.5;}    
 }
 class Test2
 {  
