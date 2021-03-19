@@ -1,6 +1,16 @@
+//Method 1: Delos Reyes, Nathaniel
 class Bank
 {
-  
+
+double getRateOfInterest()
+{return 0;}  
+}  
+
+//Method 2: Delos Reyes, Nathaniel
+class SECURITYBANK extends Bank
+{  
+double getRateOfInterest(){return 0.99;}  
+}
 }
 class Test2
 {  
