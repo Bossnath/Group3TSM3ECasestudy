@@ -11,6 +11,14 @@ class SECURITYBANK extends Bank
 {  
 double getRateOfInterest(){return 0.99;}  
 }
+//Method 3: Libunao, Patrick O.
+class GSAVE extends Bank{  
+double getRateOfInterest(){return 2.6;}  
+} 
+//Method 4:Libunao, Patrick 0.
+class LANDBANK extends Bank{  
+double getRateOfInterest(){return 0.75;}  
+}
 }
 class Test2
 {  
