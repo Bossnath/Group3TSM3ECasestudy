@@ -55,6 +55,15 @@ double getRateOfInterest(){return 0.75;}
 class CIMB extends Bank{  
 double getRateOfInterest(){return 2.5;}    
 }
+//method 13: Tolentino, Renz Ian
+class METROBANK extends Bank{  
+double getRateOfInterest(){return 0.25;}  
+} 
+//Method 14: Tolentino, Renz Ian
+class RURALBANK extends Bank{  
+double getRateOfInterest(){return 0.25;}  
+}
+
 class Test2
 {  
 public static void main(String args[]){  
